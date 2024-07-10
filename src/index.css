@@ -1,0 +1,114 @@
+body{
+	background: white;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	position: relative;
+}
+
+header .wrapper {
+	width: 1280px;
+	margin: 50px auto;
+}
+
+header .logo{
+	font-weight: 600;
+	font-size: 25px;
+	position: absolute;
+	top: 0px;
+}
+
+header ul {
+	list-style: none;
+	cursor: pointer;
+}
+
+header ul.nav li{
+	display: inline;
+	margin-left: 30px;
+	color: gray;
+	font-weight: 500;
+	float: right;
+}
+
+header img.png-ramka{
+	width: 500px;
+	height: inherit;
+	position: relative;
+	top: 180px;
+	display: flex;
+}
+
+.wrapper p.text-ramka{
+	display: flex;
+	width: 680px;
+	line-height: 25px;
+	font-weight: bold;
+	font-family: monospace;
+	position: relative;
+	left: 580px;
+	top: -105px;
+	text-align: center;
+	background: lightgray;
+	padding: 30px;
+	color: black;
+	font-size: 20px;
+	font-weight: 400;
+	border-radius: 10px;
+}
+
+.button{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 1280px;
+	height: 300px;
+	top: -80px;
+}
+
+.button b{
+	cursor: pointer;
+	font-size: 20px;
+	width: 250px;
+	background: #777;
+	margin: 50px;
+	color: white;
+	padding: 10px 30px;
+	height: 50px;
+	border-radius: 20px;
+	position: relative;
+	justify-content: end;
+}
+
+.button b.button-1 {
+	display: flex;
+	float: right;
+}
+
+.button b.button-2 {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.button-1::after{
+	content: "Невидима рамка>>";
+	position: absolute;
+	top: 35px;
+	left: 110px;
+	color: #222629;
+}
+
+.button-2::after{
+	content: "<<Невидима рамка";
+	position: absolute;
+	top: 30px;
+	left: 35px;
+	color: #222629;
+}
